@@ -2,7 +2,7 @@
 
 *Read this if you've never used one. No experience needed. It takes about five minutes.*
 
-*You'll need Python and VS Code installed first (steps 1 and 2 of [SETUP.md](SETUP.md)). Then read this before step 3.*
+*You'll need the course files, Python and VS Code first (steps 0 to 2 of [SETUP.md](SETUP.md)). Then read this before step 3.*
 
 ## The short version
 

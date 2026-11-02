@@ -8,9 +8,10 @@ A friendly, practical introduction to Python for junior developers. You go from 
 
 ## Quick start
 
-1. Install Python 3.10 or newer and VS Code. [SETUP.md](SETUP.md) walks through it (about 10 minutes).
-2. Open this folder in VS Code (**File → Open Folder…**) and accept the prompt to install the recommended extensions.
-3. Open VS Code's terminal and create the course environment. (Never used a terminal? Read [TERMINAL.md](TERMINAL.md) first. It takes five minutes.) Full details are in [SETUP.md](SETUP.md):
+1. **Get the course files** from GitHub by downloading the ZIP or cloning with Git. [Step 0 of SETUP.md](SETUP.md#0-get-the-course-files) shows how.
+2. Install Python 3.10 or newer and VS Code. [SETUP.md](SETUP.md) walks through it (about 10 minutes).
+3. Open the course folder in VS Code (**File → Open Folder…**) and accept the prompt to install the recommended extensions.
+4. Open VS Code's terminal and create the course environment. (Never used a terminal? Read [TERMINAL.md](TERMINAL.md) first. It takes five minutes.) Full details are in [SETUP.md](SETUP.md):
 
    ```bash
    python -m venv .venv
@@ -22,7 +23,7 @@ A friendly, practical introduction to Python for junior developers. You go from 
    pip install -r requirements.txt
    ```
 
-4. Open [lessons/01_hello_python/README.md](lessons/01_hello_python/README.md) and press `Ctrl+Shift+V` to see it nicely formatted.
+5. Open [lessons/01_hello_python/README.md](lessons/01_hello_python/README.md) and press `Ctrl+Shift+V` to see it nicely formatted.
 
 ## Course outline
 

@@ -2,6 +2,57 @@
 
 About 10 minutes. You only do this once.
 
+## 0. Get the course files
+
+The course lives on GitHub: **https://github.com/AnotherT-SwiftFan/basic-python-training**
+
+You need a copy of it on your own computer. There are two ways to get one, so pick whichever you like. You don't need a GitHub account for either, and you can do this before or after installing Python and VS Code.
+
+### Option A: Download a ZIP (simplest, nothing to install)
+
+1. Open the link above in your web browser.
+2. Click the green **Code** button, then **Download ZIP**.
+3. Find `basic-python-training-main.zip` in your Downloads folder.
+4. **Extract** it. On Windows, right-click the file and choose **Extract All…**. On macOS, double-click it. The files must be extracted, not just browsed inside the ZIP, or Python won't be able to run them.
+5. Move the extracted folder somewhere you'll find again, such as Documents.
+
+> **Windows tip:** extracting can give you a folder inside a folder with the same name. Use the inner one, the one that contains `README.md`.
+
+To get updates later, you'd download a fresh ZIP.
+
+### Option B: Clone with Git (best for the long run)
+
+**Cloning** downloads a copy that remembers where it came from, so you can fetch updates later. Git is also the tool you'll use every day at work, so it's worth getting comfortable with.
+
+1. Install Git from [git-scm.com/downloads](https://git-scm.com/downloads). The default options are fine. Restart VS Code afterwards if it was open.
+2. In VS Code, press `Ctrl+Shift+P` (`Cmd+Shift+P` on macOS), type **Git: Clone** and press Enter.
+3. Paste this address and press Enter:
+
+   ```text
+   https://github.com/AnotherT-SwiftFan/basic-python-training.git
+   ```
+
+4. Choose a folder to keep the course in (Documents is fine). VS Code creates a `basic-python-training` folder inside it.
+5. When VS Code asks *"Would you like to open the cloned repository?"*, click **Open**.
+
+Prefer the terminal? Open one in the folder where you want the course to live (see [TERMINAL.md](TERMINAL.md)) and run:
+
+```bash
+git clone https://github.com/AnotherT-SwiftFan/basic-python-training.git
+```
+
+Then open the new `basic-python-training` folder in VS Code with **File → Open Folder…**.
+
+**To get updates later,** open a terminal in the course folder and run:
+
+```bash
+git pull
+```
+
+If Git says your local changes would be overwritten, you've edited a file that the update also changed. Copy your work somewhere safe, or ask your mentor, before going further.
+
+**Want your progress saved on your own GitHub account?** Click **Fork** at the top right of the repository page first, then clone *your fork* instead (its address has your username in it).
+
 ## 1. Install Python
 
 Get Python **3.10 or newer** from [python.org/downloads](https://www.python.org/downloads/).
